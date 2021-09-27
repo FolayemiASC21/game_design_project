@@ -102,8 +102,8 @@ function draw() {
 
 function mouseClicked() {
     if (ballXPos == 400 && ballYPos == 300) {
-    ballXSpeed = 1.5
-    ballYSpeed = 1.5
+    ballXSpeed = 1.8
+    ballYSpeed = 1.8
 
     ballXChange = 2
     ballYChange = 2

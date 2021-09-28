@@ -14,7 +14,7 @@ let paddleTop
 let paddleBottom
 let paddleRight
 let paddleLeft
-let paddleSpeed = 3
+let paddleSpeed = 5
 
 let score = -1
 let highScore = 0
@@ -24,8 +24,8 @@ function setup() {
     createCanvas(800, 600)
     rectMode(CENTER)
 
-    ballXSpeed = 3
-    ballYSpeed = 3
+    ballXSpeed = 5.5
+    ballYSpeed = 5.5
 }
 
 function draw() {
@@ -102,8 +102,8 @@ function draw() {
 
 function mouseClicked() {
     if (ballXPos == 400 && ballYPos == 300) {
-    ballXSpeed = 1.8
-    ballYSpeed = 1.8
+    ballXSpeed = 3.5
+    ballYSpeed = 3.5
 
     ballXChange = 2
     ballYChange = 2
